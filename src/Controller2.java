@@ -53,7 +53,7 @@ public class Controller2 {
 		System.out.println(username.size());
 
 		for (int i = 0; i < username.size(); i++) {
-			System.out.println(temp[i].getName() + temp[i].getNum() + temp[i].getMail());
+			System.out.println("이름 : " + temp[i].getName() +"번호 : "+ temp[i].getNum() +"메일 : "+ temp[i].getMail());
 		}
 
 	}
